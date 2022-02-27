@@ -1,0 +1,20 @@
+.header {
+}
+
+nav {
+  @apply text-white 
+}
+nav a:hover {
+  @apply hover:text-yellow-200
+}
+.nav {
+  @apply flex items-center justify-between flex-wrap bg-cyan-900 p-6;
+}
+
+.nav-title {
+  @apply flex items-center text-white mr-6;
+}
+
+.nav-list-menu {
+  @apply hidden md:flex items-center;
+}
